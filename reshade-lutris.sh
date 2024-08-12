@@ -271,7 +271,7 @@ function installReshade() {
         echo "https://reshade.me/${RVERS}"
         curl -sLO "https://reshade.me/${RVERS}" || printErr "Could not download latest version of ReShade."
 
-        echo "Successfully Downloaded $exeFile"
+        echo "Successfully Downloaded $RESHADE_INSTALLER"
 
     else
         echo "${RESHADE_INSTALLER} already downloaded."
