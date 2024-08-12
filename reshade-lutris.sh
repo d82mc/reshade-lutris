@@ -31,7 +31,6 @@ cat > /dev/null <<DESCRIPTION
         grep
         curl
         wget
-        protontricks
         git
 
     Notes:
